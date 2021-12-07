@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+    .alldivs{
+    
+    position:relative;
+    width: 400px;
+    height:400px;
+    top:0%;
+    left:50px;
+     
+    
+    }
+    .girl img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    }
+
+     .backContainer{
+        background-image: linear-gradient(red,yellow); 
+        
+         position: absolute;
+         width:100%;
+         height:100%;
+         top:0;
+         left:0;
+         z-index:-2;
+     }
+
+
+     .alldivs:hover .girl img{
+        transform: scale(.2);
+        transform-origin: right;
+        transition-duration: .5s;
+         border-radius:300px;
+         margin-left:50px;
+     }
+
+
+     .content{
+        padding-top: 20px;
+        padding-left: 30px;
+        
+         text-align:center;
+         
+     }
+
+
+     .content .heading{
+        font-weight:40px;
+         font-size:22px;
+         margin-top:150px;
+     }
+
+
+     .content .description{
+         text-align: center;
+         padding:30px;
+     }
+    </style>
+
+
+    <body>
+    <div class="alldivs">
+        <div class="girl"> 
+                <img src="/Users/apalac796/Documents/week 19/girl.jpg" alt="stylish girl ">
+        </div>
+
+        <div class="backContainer">
+            <div class="content">
+                <div class="heading">
+                    Stylish Girl
+                </div>
+
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+
+                </div>
+
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+</body>
+    </html>
